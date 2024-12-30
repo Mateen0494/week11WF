@@ -16,6 +16,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Repositoey Basic Info
         run: |
-          echo "Repository Name: $ {{github.repository}}"
-          echo "Repository Owner: $ {{github.owner}}" 
+          echo "Repository Name: ${{github.repository}}"
+          echo "Repository Owner: ${{github.owner}}" 
           
